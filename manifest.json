@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-11T13:00:00Z",
+  "repository": {
+    "owner": "jeitsonbarajas",
+    "name": "swo-oneclick-skills-content",
+    "branch": "main",
+    "url": "https://github.com/jeitsonbarajas/swo-oneclick-skills-content"
+  },
+  "technologies": [
+    {
+      "id": "javascript",
+      "name": "JavaScript",
+      "description": "Modern JavaScript development files",
+      "icon": "🟨",
+      "color": "#f7df1e"
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript",
+      "description": "TypeScript development files",
+      "icon": "🔷",
+      "color": "#3178c6"
+    },
+    {
+      "id": "python",
+      "name": "Python",
+      "description": "Python development files",
+      "icon": "🐍",
+      "color": "#3776ab"
+    }
+  ],
+  "files": [
+    {
+      "id": "js-copilot-1",
+      "name": "JavaScript Copilot Instructions",
+      "description": "Optimized Copilot instructions for JavaScript development",
+      "filename": "copilot-instructions.md",
+      "type": "instructions",
+      "technology": "javascript",
+      "downloadPath": "javascript/copilot-instructions.md",
+      "tags": ["copilot", "ai", "javascript"],
+      "lastUpdated": "2024-11-10",
+      "size": "2.3 KB",
+      "author": "SWO Team",
+      "version": "1.0"
+    },
+    {
+      "id": "js-react-1",
+      "name": "React Development Chat Mode",
+      "description": "Specialized chat mode for React component development",
+      "filename": "react-chatmode.md",
+      "type": "chatmode",
+      "technology": "javascript",
+      "downloadPath": "javascript/react-chatmode.md",
+      "tags": ["react", "components", "chat"],
+      "lastUpdated": "2024-11-09",
+      "size": "1.8 KB",
+      "author": "SWO Team",
+      "version": "1.0"
+    },
+    {
+      "id": "ts-copilot-1",
+      "name": "TypeScript Copilot Instructions",
+      "description": "Enhanced Copilot instructions for TypeScript projects",
+      "filename": "copilot-instructions.md",
+      "type": "instructions",
+      "technology": "typescript",
+      "downloadPath": "typescript/copilot-instructions.md",
+      "tags": ["copilot", "typescript", "types"],
+      "lastUpdated": "2024-11-10",
+      "size": "2.7 KB",
+      "author": "SWO Team",
+      "version": "1.0"
+    },
+    {
+      "id": "py-copilot-1",
+      "name": "Python Copilot Instructions",
+      "description": "Python-specific Copilot instructions for better code generation",
+      "filename": "copilot-instructions.md",
+      "type": "instructions",
+      "technology": "python",
+      "downloadPath": "python/copilot-instructions.md",
+      "tags": ["copilot", "python"],
+      "lastUpdated": "2024-11-08",
+      "size": "2.1 KB",
+      "author": "SWO Team",
+      "version": "1.0"
+    },
+    {
+      "id": "py-django-1",
+      "name": "Django Development Guide",
+      "description": "Complete guide for Django web development",
+      "filename": "django-guide.md",
+      "type": "guide",
+      "technology": "python",
+      "downloadPath": "python/django-guide.md",
+      "tags": ["django", "web", "framework"],
+      "lastUpdated": "2024-11-07",
+      "size": "5.2 KB",
+      "author": "SWO Team",
+      "version": "1.0"
+    }
+  ],
+  "metadata": {
+    "totalFiles": 5,
+    "totalTechnologies": 3,
+    "contributors": ["SWO Team"]
+  }
+}

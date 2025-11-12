@@ -97,7 +97,7 @@ github-content/
   "technology": "java",
   "downloadPath": "java/spring-boot-guide.md",
   "tags": ["spring", "boot", "rest", "api", "java"],
-  "lastModified": "2024-11-09T10:00:00Z",
+  "lastModified": "2025-11-09T10:00:00Z",
   "author": "SWO Team",
   "version": "1.0"
 }
@@ -217,7 +217,7 @@ ls javascript/copilot-instructions.md
 
 | Version | Date | Changes |
 |---------|------|---------|
-| 1.0 | 2024-11-09 | Initial content with JS, TS, Python examples |
+| 1.0 | 2025-11-09 | Initial content with JS, TS, Python examples |
 
 ## Support
 
@@ -230,5 +230,5 @@ For issues or questions:
 ---
 
 **Author:** SoftwareOne Team  
-**Last Updated:** 2024-11-09  
+**Last Updated:** 2025-11-09  
 **Extension:** SWO OneClick Skills v0.2.7+

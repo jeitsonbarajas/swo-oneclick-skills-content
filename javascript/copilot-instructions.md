@@ -1,6 +1,6 @@
 # JavaScript Copilot Instructions
 
-**Generated:** 2024-11-10  
+**Generated:** 2025-11-10  
 **Version:** 1.0  
 **Author:** SWO Team
 

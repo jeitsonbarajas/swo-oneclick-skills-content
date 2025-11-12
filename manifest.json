@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2025-11-11T13:00:00Z",
+  "version": "2.0.0",
+  "lastUpdated": "2025-11-12T18:30:00Z",
   "repository": {
     "owner": "jeitsonbarajas",
     "name": "swo-oneclick-skills-content",
-    "branch": "main",
+    "branch": "initial",
     "url": "https://github.com/jeitsonbarajas/swo-oneclick-skills-content"
   },
   "technologies": [
@@ -28,6 +28,15 @@
       "description": "Python development files",
       "icon": "🐍",
       "color": "#3776ab"
+    },
+    {
+      "id": "dotnet",
+      "name": ".NET",
+      "description": ".NET and C# development with skills-based architecture (7 specialized skills)",
+      "icon": "💜",
+      "color": "#512bd4",
+      "architecture": "skills-based",
+      "skillCount": 7
     }
   ],
   "files": [
@@ -40,7 +49,7 @@
       "technology": "javascript",
       "downloadPath": "javascript/copilot-instructions.md",
       "tags": ["copilot", "ai", "javascript"],
-      "lastUpdated": "2024-11-10",
+      "lastUpdated": "2025-11-10",
       "size": "2.3 KB",
       "author": "SWO Team",
       "version": "1.0"
@@ -54,7 +63,7 @@
       "technology": "javascript",
       "downloadPath": "javascript/react-chatmode.md",
       "tags": ["react", "components", "chat"],
-      "lastUpdated": "2024-11-09",
+      "lastUpdated": "2025-11-09",
       "size": "1.8 KB",
       "author": "SWO Team",
       "version": "1.0"
@@ -68,7 +77,7 @@
       "technology": "typescript",
       "downloadPath": "typescript/copilot-instructions.md",
       "tags": ["copilot", "typescript", "types"],
-      "lastUpdated": "2024-11-10",
+      "lastUpdated": "2025-11-10",
       "size": "2.7 KB",
       "author": "SWO Team",
       "version": "1.0"
@@ -82,7 +91,7 @@
       "technology": "python",
       "downloadPath": "python/copilot-instructions.md",
       "tags": ["copilot", "python"],
-      "lastUpdated": "2024-11-08",
+      "lastUpdated": "2025-11-08",
       "size": "2.1 KB",
       "author": "SWO Team",
       "version": "1.0"
@@ -96,15 +105,163 @@
       "technology": "python",
       "downloadPath": "python/django-guide.md",
       "tags": ["django", "web", "framework"],
-      "lastUpdated": "2024-11-07",
+      "lastUpdated": "2025-11-07",
       "size": "5.2 KB",
+      "author": "SWO Team",
+      "version": "1.0"
+    },
+    {
+      "id": "dotnet-copilot-1",
+      "name": ".NET Copilot Instructions - Orchestrator",
+      "description": "Orquestador de skills para desarrollo .NET que mapea intenciones a archivos especializados",
+      "filename": "copilot-instructions.md",
+      "type": "orchestrator",
+      "technology": "dotnet",
+      "downloadPath": "dotnet/copilot-instructions.md",
+      "tags": ["copilot", "dotnet", "csharp", "orchestrator", "skills"],
+      "lastUpdated": "2025-11-12",
+      "size": "15.2 KB",
+      "author": "SWO Team",
+      "version": "2.0"
+    },
+    {
+      "id": "dotnet-chatmode",
+      "name": ".NET General Chat Mode",
+      "description": "Conocimiento general de .NET, C# moderno, arquitectura y principios SOLID",
+      "filename": "dotnet-chatmode.md",
+      "type": "chatmode",
+      "technology": "dotnet",
+      "downloadPath": "dotnet/dotnet-chatmode.md",
+      "tags": ["dotnet", "csharp", "architecture", "solid", "modern"],
+      "lastUpdated": "2025-11-12",
+      "size": "18.7 KB",
+      "author": "SWO Team",
+      "version": "1.0"
+    },
+    {
+      "id": "dotnet-webapi-skill",
+      "name": "ASP.NET Web API Skill",
+      "description": "Skill especializado para desarrollo de REST APIs con ASP.NET Core y Minimal APIs",
+      "filename": "aspnet-webapi.skill.md",
+      "type": "skill",
+      "technology": "dotnet",
+      "downloadPath": "dotnet/aspnet-webapi.skill.md",
+      "tags": ["aspnet", "webapi", "rest", "minimal-api", "swagger", "cors"],
+      "lastUpdated": "2025-11-12",
+      "size": "24.8 KB",
+      "author": "SWO Team",
+      "version": "1.0"
+    },
+    {
+      "id": "dotnet-efcore-skill",
+      "name": "Entity Framework Core Skill",
+      "description": "Skill especializado para trabajar con bases de datos usando Entity Framework Core",
+      "filename": "ef-core.skill.md",
+      "type": "skill",
+      "technology": "dotnet",
+      "downloadPath": "dotnet/ef-core.skill.md",
+      "tags": ["efcore", "database", "orm", "linq", "migrations", "repository"],
+      "lastUpdated": "2025-11-12",
+      "size": "32.4 KB",
+      "author": "SWO Team",
+      "version": "1.0"
+    },
+    {
+      "id": "dotnet-auth-skill",
+      "name": "Authentication & Authorization Skill",
+      "description": "Skill especializado para implementar JWT, Identity, roles y políticas de autorización",
+      "filename": "authentication.skill.md",
+      "type": "skill",
+      "technology": "dotnet",
+      "downloadPath": "dotnet/authentication.skill.md",
+      "tags": ["jwt", "authentication", "authorization", "identity", "security", "roles"],
+      "lastUpdated": "2025-11-12",
+      "size": "28.6 KB",
+      "author": "SWO Team",
+      "version": "1.0"
+    },
+    {
+      "id": "dotnet-validation-skill",
+      "name": "Validation & Error Handling Skill",
+      "description": "Skill especializado para validación de datos con FluentValidation y manejo de errores",
+      "filename": "validation.skill.md",
+      "type": "skill",
+      "technology": "dotnet",
+      "downloadPath": "dotnet/validation.skill.md",
+      "tags": ["validation", "fluentvalidation", "error-handling", "exceptions", "problem-details"],
+      "lastUpdated": "2025-11-12",
+      "size": "26.3 KB",
+      "author": "SWO Team",
+      "version": "1.0"
+    },
+    {
+      "id": "dotnet-testing-skill",
+      "name": "Testing Skill",
+      "description": "Skill especializado para unit tests, integration tests y mocking en .NET",
+      "filename": "testing.skill.md",
+      "type": "skill",
+      "technology": "dotnet",
+      "downloadPath": "dotnet/testing.skill.md",
+      "tags": ["testing", "unit-test", "integration-test", "xunit", "moq", "tdd"],
+      "lastUpdated": "2025-11-12",
+      "size": "29.8 KB",
+      "author": "SWO Team",
+      "version": "1.0"
+    },
+    {
+      "id": "dotnet-di-skill",
+      "name": "Dependency Injection & Configuration Skill",
+      "description": "Skill especializado para DI, service lifetimes, Options Pattern y configuración",
+      "filename": "di-configuration.skill.md",
+      "type": "skill",
+      "technology": "dotnet",
+      "downloadPath": "dotnet/di-configuration.skill.md",
+      "tags": ["dependency-injection", "di", "options-pattern", "configuration", "appsettings"],
+      "lastUpdated": "2025-11-12",
+      "size": "22.5 KB",
+      "author": "SWO Team",
+      "version": "1.0"
+    },
+    {
+      "id": "dotnet-performance-skill",
+      "name": "Performance & Optimization Skill",
+      "description": "Skill especializado para caching, optimización de queries, async/await y memory management",
+      "filename": "performance.skill.md",
+      "type": "skill",
+      "technology": "dotnet",
+      "downloadPath": "dotnet/performance.skill.md",
+      "tags": ["performance", "caching", "redis", "optimization", "async", "memory"],
+      "lastUpdated": "2025-11-12",
+      "size": "27.9 KB",
       "author": "SWO Team",
       "version": "1.0"
     }
   ],
   "metadata": {
-    "totalFiles": 5,
-    "totalTechnologies": 3,
-    "contributors": ["SWO Team"]
+    "totalFiles": 13,
+    "totalTechnologies": 4,
+    "contributors": ["SWO Team"],
+    "fileTypes": {
+      "orchestrator": 1,
+      "chatmode": 3,
+      "skill": 7,
+      "instructions": 3,
+      "guide": 1
+    },
+    "skillsSystem": {
+      "dotnet": {
+        "orchestrator": "copilot-instructions.md",
+        "chatmode": "dotnet-chatmode.md",
+        "skills": [
+          "aspnet-webapi.skill.md",
+          "ef-core.skill.md",
+          "authentication.skill.md",
+          "validation.skill.md",
+          "testing.skill.md",
+          "di-configuration.skill.md",
+          "performance.skill.md"
+        ]
+      }
+    }
   }
 }
